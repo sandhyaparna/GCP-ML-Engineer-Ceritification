@@ -1,17 +1,40 @@
+### Types of ML problems
+* Classification - Binary, Multi-class, Multi-label
+* Regression
+* Clustering
+* Association rule learning or Recommendation engines
+* NLP - Entity extraction, NLU, generation, seq-to-seq learning
+* Search result ranking
+
 ### Define a ML problem & propose a solution
-* Articulate your problem
+* Articulate your problem - What are you trying to solve, how is it helping end-user ?
 * See if any labeled data exits - supervised or unsupervised
 * Design your data for the model - construct data set
 * Determine where data comes from
 * Determine easily obtained inputs
 * Determine quantifiable outputs - Online & offline metrics
 
+### ML Process
+1. Set the research goal - I want to predict how heavy traffic will be on a given day.
+2. Make a hypothesis -	I think the weather forecast is an informative signal.
+3. Collect the data -	Collect historical traffic data and weather on each day.
+4. Test your hypothesis -	Train a model using this data.
+5. Analyze your results -	Is this model better than existing systems?
+6. Reach a conclusion -	I should (not) use this model to make predictions, because of X, Y, and Z.
+7. Refine hypothesis and repeat -	Time of year could be a helpful signal.
 
 
+# Use Cases
 
+### Email Smart Reply 
+http://www.kdd.org/kdd2016/papers/files/Paper_1069.pdf
+* Data: conversation data - Tech Support corpus
+* Challenges: Quality of response, when providing suggestions, all top 3 suggestions should NOT be highly correlated, meaning diverse suggestions (cluster outputs and choose top 1 from each cluster), latency (run a model in order to decide if we have want to give suggestions or not - similar to markdown model) , privacy
+* Stochastic Gradient Descent with AdaGrad, gradient clipping, normalization
 
-
-
+### YouTube Recommendations
+https://dl.acm.org/doi/abs/10.1145/2959100.2959190
+Data: watch time, click-through rate, watch history, search history
 
 
 
