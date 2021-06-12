@@ -1,6 +1,6 @@
 ### Define a ML problem & propose a solution
 * Articulate your problem
-* See if any labeled data exits
+* See if any labeled data exits - supervised or unsupervised
 * Design your data for the model - construct data set
 * Determine where data comes from
 * Determine easily obtained inputs
