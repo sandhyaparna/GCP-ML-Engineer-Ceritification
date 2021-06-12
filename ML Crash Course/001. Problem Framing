@@ -1,6 +1,13 @@
-### Define a ML problem
+### Define a ML problem & propose a solution
 * Articulate your problem
-* 
+* See if any labeled data exits
+* Design your data for the model - construct data set
+* Determine where data comes from
+* Determine easily obtained inputs
+* Determine quantifiable outputs - Online & offline metrics
+
+
+
 
 
 
