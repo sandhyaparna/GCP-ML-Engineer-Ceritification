@@ -1,0 +1,21 @@
+* Model starts with random weights --> loss is computed & gradient of loss helps in --> parameter updation --> again calculate loss --> repeat till loss no longer changes/decreases --> implies model has converged
+* very low learning rate requires a lot of epochs for conversion
+* Loss can be decreased by efficiently choosing the direction to update parameters
+* Gradient is a vector with magnitude & direction
+* If learning rate is large, take big steps (step size = learning rate * gradient)
+* If learning rate is small, takes small step size
+* In case of non-convex optimization problems, where there are many local minima, weights initiation matters
+
+
+### Optimization algorithms
+* Stochastic Gradient Descent: 1 example at a time
+* Mini-batch Gradient Descent: Weights are updates a fter a batch of examples
+
+
+
+
+
+
+
+
+
